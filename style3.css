@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+
+.navbar_cont ul li{
+    margin-top: 25px;
+    list-style: none;
+}
+.navbar_cont ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+    border-radius: 15px;
+    padding: 10px;
+}
+.navbar_cont ul li a:hover{
+    border: 2px solid whitesmoke;
+}
+.body_content{
+    background-color:bisque;
+    width: 80%;
+    margin:auto;
+}
+.body_content ul li a{
+    text-decoration: none;
+}
+.body_content .row .col img{
+    margin-bottom: 5px;
+}
+@media screen and (max-width: 750px){
+    .row {
+        display: block;
+    }
+    .body_content{
+        width: 100%;
+        
+    }
+}

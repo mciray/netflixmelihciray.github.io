@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+}
+
+/* index.html start*/
+.header{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(NETFLİX/images/arkaplan.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar_cont ul li{
+    margin-top: 25px;
+    list-style: none;
+}
+.navbar_cont ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+    border-radius: 15px;
+    padding: 10px;
+}
+.navbar_cont ul li a:hover{
+    border: 2px solid whitesmoke;
+}
+
+
+.body_content .row{
+    justify-content: center;
+    height: 60vh;
+    
+    align-items:center;
+}
+img{
+    max-width: 100%;
+}
+.row{
+    
+    height: 30vh;
+}
+.row h3{
+    padding: 15px;
+}
+/* index.html end*/
+
+
+
+
+
+
+
+/* uyelik.html start */
+
